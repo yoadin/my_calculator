@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #606060;
+    background-color: #3d1717;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -25,6 +25,15 @@ body{
 .buttons{
     display: grid;
     grid-template-columns: repeat(4, 105px);
+}
+
+.btn{
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid brown;
+    background-color: rgb(132, 214, 233);
+    color: black;
+    cursor: pointer;
 }
 
 
