@@ -36,5 +36,14 @@ body{
     cursor: pointer;
 }
 
+.equal{
+    grid-column: span 3;
+    background-color: rgb(13, 114, 215);
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
 
 /* Write CSS code here */
