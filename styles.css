@@ -22,5 +22,10 @@ body{
     color: black;
 }
 
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 105px);
+}
+
 
 /* Write CSS code here */
